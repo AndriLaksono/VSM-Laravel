@@ -28,7 +28,7 @@ use Illuminate\Support\Facades\DB;
 use App\Helpers\PreprocessingHelper as Preprocessing;
 use App\Helpers\VSMHelper as VSM;
 
-class KriminalController extends Controller
+class HomeController extends Controller
 {
 	// ====== PENGGUNAAN ====== //
     public function pencarian(Request $request)
