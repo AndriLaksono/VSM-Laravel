@@ -29,7 +29,7 @@ class KriminalController extends Controller
         // STEP 1 == query ke kata dasar (array)
         $query_dasar = Preprocessing::preprocess($request->cari);
 
-        // STEP 2 = =get dokumen & parse to array
+        // STEP 2 == get dokumen & parse to array
         $dokumen = DB::table('artikel')->get();
         $arrayDokumen = [];
         foreach ($dokumen as $d) {
