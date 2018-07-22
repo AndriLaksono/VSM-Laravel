@@ -10,6 +10,13 @@ Untuk menggunakan model ini anda harus melakukan beberapa langkah setup.
 ### Penggunaan
 Setelah melakukan setup anda dapat menggunakan pada controller.
 Berikut contoh penggunaannya:
+* pada root project*/config/app.php* tambahkan kode dibawah agar module VSM yang ada di helper dapat digunakan.
+```
+'Preprocessing' => App\Helpers\PreprocessingHelper::class,
+'VSM' => App\Helpers\VSMHelper::class,
+```
+
+**Penggunaan di controller**
 ```
 <?php
 
