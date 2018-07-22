@@ -3,8 +3,9 @@ Module VSM untuk membantu pencarian pada laravel menggunakan Information retriev
 
 ## Getting Started
 Untuk menggunakan model ini anda harus melakukan beberapa langkah setup.
-* Import table tb_katadasar.sql ke database anda.
-* Buat folder 
+* Import table [tb_katadasar.sql](http://www.google.com) ke database anda.
+* Buat folder Helper dibawah folder app/
+* Letakan VSMProvider.php dan PreprocessingProvider.php divawah folder app/Provider
 
 ### Prerequisites
 
